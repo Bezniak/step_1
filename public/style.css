@@ -1,0 +1,16 @@
+select {
+    max-width: 20%;
+    padding: 5px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 300;
+    display: inline-flex;
+}
+
+.label__form {
+    
+}
+
+.select__form {
+
+}

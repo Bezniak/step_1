@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en" class="perfect-scrollbar-off nav-open">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="stylesheet" href="/public/style.css">
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="%PUBLIC_URL%/apple-icon.png"
+    />
+    <!-- Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700"
+      rel="stylesheet"
+    />
+    <title>Website</title>
+  </head>
+  <body>
+  <div id="root"></div>
+
+  <p><img src="/public/img/window.jpg" alt="window" id="pic"></p>
+    
+  <p> Выберете размер окна:</p>
+  <form action="">
+    <input type="range" name="volume" id="volume" min="1500" max="6000" step="10" value="2500">
+    <output class="volume-output"></output>
+  </form>
+
+
+<h2>Заполните фильтр</h2>
+
+<form action="">
+  <label for="window">Стеклопакет</label>
+  <select name="Window" id="Window">
+      <option value="">2 камерный</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<form action="">
+  <label for="window">Профиль ПВХ</label>
+  <select name="Window" id="Window">
+      <option value="">BRUSBOX 70</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<form action="">
+  <label for="window">Акция</label>
+  <select name="Window" id="Window">
+      <option value="">Акция - в Минске и других </option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<p>Дополнительные комплектующие</p>
+
+<form action="">
+  <label for="window" class="label__form">Отлив</label>
+  <select name="Window" id="Window" class="select__form">
+      <option value="">-не учитывать в расчете-</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<form action="">
+  <label for="window" class="label__form">Подоконник</label>
+  <select name="Window" id="Window" class="select__form">
+      <option value="">-не учитывать в расчете-</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<form action="">
+  <label for="window" class="label__form">Отделка откосов</label>
+  <select name="Window" id="Window" class="select__form">
+      <option value="">-не учитывать в расчете-</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+
+<form action="">
+  <label for="window" class="label__form">Монтаж</label>
+  <select name="Window" id="Window" class="select__form">
+      <option value="">Без монтажа</option>
+      <option value="">SOMTHING ELSE</option>
+  </select>
+</form>
+  
+
+  <script type="module" src="/public/index.js"></script> 
+</body>
+</html>
